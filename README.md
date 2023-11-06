@@ -13,7 +13,7 @@
 
 While they're both amazing operating systems, they have their differences. I choose **Linux** over Windows 10 because:
 
-- Linux is **open source** (I like to know I'm in safe hands and not in the dark)
+- Linux is [Open Source](https://en.wikipedia.org/wiki/Open_source) (I like to know I'm in safe hands and not in the dark)
 - Linux is a [UNIX](https://en.wikipedia.org/wiki/Unix)-like operating system which is my preferred choice. It feels more natural to use. Terminals are the most important!
 - **Customization**: It's endless! I can make my system function and look exactly how I like (which is a big thing to me)
 - I genuinely like [Window Manager](https://en.wikipedia.org/wiki/Window_manager)s more then desktops. They are more functional and easier to use. Having two windows snap by side by default and full screen while only one window is open is just perfect.
