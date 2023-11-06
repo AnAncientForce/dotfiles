@@ -34,10 +34,10 @@ While they're both amazing operating systems, they have their differences. I cho
 
 # How I use my system
 
-- I'm running **Arch Linux** on my laptop.
-- If I want to play games I boot into my windows 10 VM by passing through my NVIDIA GPU.
-- I use my Intel iGPU for my **wayland session** so I can have both environments simultaneously running. This makes switching super easy!
-- However, due to this setup, I tend to use my windows 10 virtual machine for anything GPU intensive.
+- I'm running [Arch Linux](https://archlinux.org) on my laptop.
+- If I want to play games I boot into my windows 10 [VM](https://en.wikipedia.org/wiki/Virtual_machine) by [passing through my NVIDIA GPU](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF).
+- I use my Intel iGPU for my [wayland](https://wiki.archlinux.org/title/Wayland) session so I can have both environments simultaneously running. This makes switching super easy!
+- However, due to this setup, I tend to use my [windows 10](https://en.wikipedia.org/wiki/Windows_10) virtual machine for anything GPU intensive.
 - A downside to this is my iGPU doesn't support external monitors so I can only use one screen while in Arch Linux :-(
 
 # Q&A
