@@ -23,12 +23,14 @@ While they're both amazing operating systems, they have their differences. I cho
 
 # Configuration
 
-- Laptop Blade 15 Base Model (Early 2020) - RZ4
-- Storage Device NVME Drive (480GB) with Windows 10
-- Storage Device External SSD (480GB) with Arch Linux
-- Virtualization Software KVM/QEMU setup with NVIDIA GPU passthrough
-- Window Manager Hyprland
-- Display Server Wayland
+<pre>
+- Laptop                    Blade 15 Base Model (Early 2020) - RZ4
+- Storage Device            NVME Drive (480GB) with Windows 10
+- Storage Device            External SSD (480GB) with Arch Linux
+- Virtualization Software   KVM/QEMU setup with NVIDIA GPU passthrough
+- Window Manager            Hyprland
+- Display Server            Wayland
+</pre>
 
 # How I use my system
 
