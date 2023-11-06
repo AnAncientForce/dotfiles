@@ -43,4 +43,4 @@ While they're both amazing operating systems, they have their differences. I cho
 # Q&A
 
 - Why do I use windows 10 for games? Because of **anticheat**.
-- X11 vs Wayland, my experience? This is hard because so many things work on X11 and are easier. However, wayland eliminates screentearing and is extremely smooth! Ultimately I chose wayland because it's still actively worked on and **Hyprland** :-)
+- [Xorg](https://wiki.archlinux.org/title/Xorg) vs Wayland, my experience? This is hard because so many things work on X11 and are easier. However, wayland eliminates screentearing and is extremely smooth! Ultimately I chose wayland because it's still actively worked on and [Hyprland](https://wiki.archlinux.org/title/Hyprland) :-)
