@@ -42,5 +42,5 @@ While they're both amazing operating systems, they have their differences. I cho
 
 # Q&A
 
-- Why do I use windows 10 for games? Because of [anticheat](https://en.wikipedia.org/wiki/Category:Anti-cheat_software): It is not available on Linux.
-- [Xorg](https://wiki.archlinux.org/title/Xorg) vs Wayland, my experience? This is hard because so many things work on Xorg and are easier. However, Wayland eliminates screen tearing and is extremely smooth! Ultimately I chose Wayland because it's still actively worked on and because Hyprland is so smooth! :-)
+- Why do I use Windows 10 for games? Because of [anticheat](https://en.wikipedia.org/wiki/Category:Anti-cheat_software): It is not available on Linux.
+- [Xorg](https://wiki.archlinux.org/title/Xorg) vs Wayland, my experience? This is hard because so many things work on Xorg and are easier. However, Wayland eliminates screen tearing and is extremely smooth! Ultimately, I chose Wayland because it's still actively worked on and because Hyprland is so smooth! :-)
