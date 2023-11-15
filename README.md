@@ -2,7 +2,7 @@
 
 # My Arch Linux Hyprland Setup
 
-![i2](screenshots/i2.png)
+![i2](screenshots/vid.mp4)
 
 # My Windows 10 Virtual Machine Setup
 
