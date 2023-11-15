@@ -10,8 +10,9 @@
 _(i don't have any fancy features or customizations enabled since I am trying to reduce RAM usage as much as possible)_
 
 <details>
-  <summary style="font-size: 2em; font-weight: bold; color: skyblue;">Click here to see the seamless switching</summary>
-  <img src="screenshots/vid.gif"/>
+<summary>Click here to see the seemless switching</summary>
+<img src="screenshots/vid.gif"/>
+<h3><i>(yes the low quality is because it's a .gif)</i></h3>
 </details>
 
 # Windows or Linux?
