@@ -1,0 +1,229 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "spacing": 0,
+  "modules-left": [
+    "cpu",
+    "memory",
+    "backlight",
+    "wireplumber"
+  ],
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+  "modules-right": [
+    "clock",
+    "battery",
+    "custom/sensor",
+    "group/group-power",
+    "tray"
+  ],
+  "custom/sensor": {
+    "exec": "sh ~/shell/invoke_sensor.sh status",
+    "on-click": "sh ~/shell/invoke_sensor.sh spawn",
+    "restart-interval": 10
+  },
+  "wireplumber": {
+    "format": "{volume}% {icon}",
+    "format-muted": "",
+    "on-click": "pavucontrol",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "group/group-power": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 500,
+      "children-class": "not-power",
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "custom/power",
+      "custom/quit",
+      "custom/lock",
+      "custom/reboot"
+    ]
+  },
+  "custom/quit": {
+    "format": "󰗼  ",
+    "tooltip": false,
+    "on-click": "hyprctl dispatch exit"
+  },
+  "custom/lock": {
+    "format": "󰍁  ",
+    "tooltip": false,
+    "on-click": "sh ~/shell/lock.sh"
+  },
+  "custom/reboot": {
+    "format": "󰜉  ",
+    "tooltip": false,
+    "on-click": "reboot"
+  },
+  "custom/power": {
+    "format": "  ",
+    "tooltip": false,
+    "on-click": "shutdown now"
+  },
+  "hyprland/workspaces": {
+    "format": "<sub>{icon}</sub> {windows}  ",
+    "format-icons": {
+      "1": "一",
+      "2": "二",
+      "3": "三",
+      "4": "四",
+      "5": "五",
+      "6": "六",
+      "7": "七",
+      "8": "八",
+      "9": "九",
+      "10": "十"
+    },
+    "format-window-separator": " ",
+    "window-rewrite-default": "",
+    "window-rewrite": {
+      "firefox": "",
+      "librewolf": "",
+      "waterfox": "",
+      "chromium": "",
+      "code": "󰨞",
+      "vscodium": "󰨞",
+      "kitty": "",
+      "alacritty": "",
+      "thunar": "",
+      "spotify": "󰓇",
+      "YouTube Music": "",
+      "clementine": "",
+      "obsidian": "󱓧",
+      "gedit": "",
+      "steam": "󰓓",
+      "robloxplayerbeta.exe": "",
+      "scrcpy": "",
+      "looking-glass-client": "",
+      "bitwarden": "",
+      "feh": "",
+      "fuzzel": "",
+      "virt-manager": "",
+      "obs-studio": "",
+      "uxterm": "",
+      "konsole": "",
+      "blueman-manager": "",
+      "easyeffects": "",
+      "pavucontrol": ""
+    },
+    "persistent-workspaces": {
+      "*": 10
+    }
+  },
+  "hyprland/window": {
+    "format": "{}",
+    "rewrite": {
+      "(.*) — Mozilla Firefox": "$1",
+      "(.*) - fish": "> [$1]",
+      "(.*) — LibreWolf": "$1"
+    },
+    "separate-outputs": true
+  },
+  "keyboard-state": {
+    "numlock": true,
+    "capslock": true,
+    "format": "{name} {icon}",
+    "format-icons": {
+      "locked": "",
+      "unlocked": ""
+    }
+  },
+  "tray": {
+    "spacing": 10
+  },
+  "clock": {
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  "cpu": {
+    "states": {
+      "warning": 75,
+      "critical": 90
+    },
+    "format": "{usage}% ",
+    "tooltip": false
+  },
+  "memory": {
+    "states": {
+      "warning": 75,
+      "critical": 95
+    },
+    "format": "{}% "
+  },
+  "temperature": {
+    "critical-threshold": 80,
+    "format": "{temperatureC}°C {icon}",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "backlight": {
+    "format": "{percent}% {icon}",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% ",
+    "format-alt": "{time} {icon}",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "battery#bat2": {
+    "bat": "BAT2"
+  },
+  "pulseaudio": {
+    "states": {
+      "warning": 40,
+      "critical": 50
+    },
+    "format": "{volume}% {icon} {format_source}",
+    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": "{volume}% ",
+    "format-source-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "on-click": "pavucontrol"
+  }
+}
