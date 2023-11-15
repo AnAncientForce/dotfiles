@@ -12,7 +12,7 @@ _(i don't have any fancy features or customizations enabled since I am trying to
 <details>
 <summary>Click here to see the seemless switching</summary>
 <img src="screenshots/vid.gif"/>
-<h3><i>(yes the low quality is because it's a .gif)</i></h3>
+<p><i>(yes, the low quality is because it's a .gif)</i></p>
 </details>
 
 # Windows or Linux?
