@@ -10,8 +10,8 @@
 _(i don't have any fancy features or customizations enabled since I am trying to reduce RAM usage as much as possible)_
 
 <details>
-<summary>Click here to see the seemless switching</summary>
-<img src="screenshots/vid.gif"/>
+  <summary style="font-size: 2em;">Click here to see the seamless switching</summary>
+  <img src="screenshots/vid.gif"/>
 </details>
 
 # Windows or Linux?
