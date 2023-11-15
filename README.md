@@ -4,15 +4,15 @@
 
 ![i4](screenshots/i4.png)
 
-<details>
-<summary>GIF Preview</summary>
-<img src="screenshots/vid.gif"/>
-</details>
-
 # My Windows 10 Virtual Machine Setup
 
 ![i3](screenshots/i3.png)
-(i don't have any fancy features or customizations enabled since I am trying to reduce RAM usage as much as possible)
+_(i don't have any fancy features or customizations enabled since I am trying to reduce RAM usage as much as possible)_
+
+<details>
+<summary>Click here to see the seemless switching</summary>
+<img src="screenshots/vid.gif"/>
+</details>
 
 # Windows or Linux?
 
