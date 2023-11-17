@@ -12,10 +12,7 @@ _(i don't have any fancy features or customizations enabled since I am trying to
 <details>
 <summary>Click here to see the seemless switching</summary>
 <img src="screenshots/vid.gif"/>
-<video controls="" width="800" height="500" muted="" loop="" autoplay="">
-<source src="screenshots/20231115-004557.mp4" type="video/mp4">
-</video>
-
+<p><i>(yes, the low quality is because it's a .gif)</i></p>
 </details>
 
 # Windows or Linux?
