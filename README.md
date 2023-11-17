@@ -12,7 +12,9 @@ _(i don't have any fancy features or customizations enabled since I am trying to
 <details>
 <summary>Click here to see the seemless switching</summary>
 <img src="screenshots/vid.gif"/>
-<video src="https://user-images.githubusercontent.com/140619284/7bae7fdf-7ce1-4866-a9c1-0f77aa233237.mp4"/>
+<video src="https://github.com/AnAncientForce/dotfiles/assets/140619284/6006edfe-cd41-4780-ab62-f708aba8ae8c/>
+
+
 </details>
 
 # Windows or Linux?
