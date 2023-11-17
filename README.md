@@ -12,7 +12,7 @@ _(i don't have any fancy features or customizations enabled since I am trying to
 <details>
 <summary>Click here to see the seemless switching</summary>
 <img src="screenshots/vid.gif"/>
-<video src="https://github.com/AnAncientForce/dotfiles/assets/140619284/6006edfe-cd41-4780-ab62-f708aba8ae8c/>
+<video src="https://github.com/AnAncientForce/dotfiles/assets/140619284/6006edfe-cd41-4780-ab62-f708aba8ae8c"/>
 
 
 </details>
