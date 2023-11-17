@@ -12,7 +12,7 @@ _(i don't have any fancy features or customizations enabled since I am trying to
 <details>
 <summary>Click here to see the seemless switching</summary>
 <img src="screenshots/vid.gif"/>
-
+<video src="screenshots/20231115-004557.mp4" controls title="Title"></video>
 </details>
 
 # Windows or Linux?
